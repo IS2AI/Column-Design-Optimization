@@ -22,7 +22,7 @@ The data generation folder contains files for parametric data generation.
 
 - functions.py contains function used to generate data, such as section analysis, random generation of section geometry.
 
-- **data.csv** file contains the sample output from data generation.
+- data.csv file contains the sample output from data generation.
 
 ### 3: Data pre-processing and network model
 - pre-processing.py script contains the data filtration based on monetary cost for the case of 4.0 meters.
@@ -34,7 +34,5 @@ The data generation folder contains files for parametric data generation.
 - use column.pth file for inferense.
 
 ### 4: Design check
-Design check folder contains free similar scripts as in data generation.
-
 Use main.py to run the check of the network output results.
 
