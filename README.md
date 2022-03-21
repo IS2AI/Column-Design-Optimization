@@ -1,4 +1,4 @@
-# Structural_Column_Design_Optimization
+# Column-Design-Optimization
 
 ## Requirements:
 1. OS Windows/Linux/Mac.
