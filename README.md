@@ -10,6 +10,7 @@
 
 #### 1: Setting working environment
 Create an environment using the env.yaml in Anaconda with the following command:
+
 conda env create -f environment.yml
 
 #### 2: Data generation
