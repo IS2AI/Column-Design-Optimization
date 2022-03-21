@@ -2,13 +2,24 @@
 
 ## Requirements:
 1. OS Windows/Linux/Mac.
-2. Python 
+2. Anaconda
+3. Python>3.8
 
 
 ### How to use?
+
+#### 1: 
 Create an environment using the env.yaml in Anaconda.
 
-The data generation folder contains files for parametric data generation.
+#### 2:
+The data generation folder contains files for parametric data generation. 
+main.py is the main script to run the data generation. 
+column.py script contrains the material, geometric, analysis, and model parameters.
+functions.py contains function used to generate data, such as section analysis, random generation of section geometry.
+
+#### 3:
+net.py file contrains network file for training the network. 
+column.pth file contains saved model for inference. 
 
 The check folder contains modified files to check the NN-predicted designs for validity following the Eurocode.
 
