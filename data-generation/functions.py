@@ -1,8 +1,6 @@
 import openseespy.opensees as ops
-import numpy as np
 import math
 import random
-import pandas as pd
 
 def cross_section(parameters):
     '''
