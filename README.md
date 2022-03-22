@@ -31,7 +31,7 @@ The data generation folder contains files for parametric data generation.
 
 - net.py file contrains network file for training the network. 
 
-- use column.pth file for inferense.
+- use column.pth file for inference.
 
 ### 4: Design check
 Use main.py to run the check of the network output results.
