@@ -36,5 +36,5 @@ The data generation folder contains files for parametric data generation.
 - use test_min.h5 and test_max.h5 files for minmax normalization of the test sample before extracting network predictions.
 
 ### 4: Design check
-Use main.py to run the check of the network output results.
+Use check.py to run the check of the network output results.
 
