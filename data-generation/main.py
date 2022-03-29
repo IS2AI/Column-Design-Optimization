@@ -44,7 +44,7 @@ while i < n+1:
     fck = 30                                  # Characteristic strength of concrete
     fc = -fck/parameters.g_c                  # Design strength of concrete      
     eps1U = parameters.eps1U                  # Strain at maximum strength
-    eps2U = parameters.eps1U                  # Strain at ultimate strength
+    eps2U = parameters.eps2U                  # Strain at ultimate strength
 
     # Steel parameters
     fy = parameters.fy/parameters.g_s         # Design strength of steel 
