@@ -1,1 +1,32 @@
-readme file
+# Column-Carbon-Footprint-Optimization
+
+## Requirements:
+1. OS Windows/Linux/Mac.
+2. Anaconda
+3. Python>3.8
+
+
+## How to use?
+
+### 1: Setting working environment
+Create an environment in Anaconda with the following command using the env.yaml in the Column-Design-Optimization folder:
+
+conda env create -f env.yaml
+
+### 2: Data generation scripts and their description is provided in the Column-Design-Optimization folder.
+
+
+### 3: Data pre-processing and network model
+- pre-processing_co2.py script contains the data filtration based on monetary cost for the case of 4.0 meters.
+
+- normalization_co2.py script contrains min-max normalization and preparing the data for network.
+
+- net_co2.py file contrains network file for training the network. 
+
+- use column_co2.pth  and test.py files for inference.
+
+- use test_min_co2.h5 and test_max_co2.h5 files for minmax normalization of the test sample before extracting network predictions.
+
+### 4: Design check
+Use check_co2.py to run the check of the network output results.
+
