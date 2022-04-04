@@ -28,5 +28,5 @@ conda env create -f env.yaml
 - use test_min_co2.h5 and test_max_co2.h5 files for minmax normalization of the test sample before extracting network predictions.
 
 ### 4: Design check
-Use check_co2.py to run the check of the network output results.
+Use check_co2.py in the check folder to check of the network output results.
 
