@@ -23,7 +23,7 @@ conda env create -f env.yaml
 
 - net_co2.py file contrains network file for training the network. 
 
-- use column_co2.pth  and test.py files for inference.
+- use column_co2.pth  and test_co2.py files for inference.
 
 - use test_min_co2.h5 and test_max_co2.h5 files for minmax normalization of the test sample before extracting network predictions.
 
