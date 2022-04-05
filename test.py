@@ -57,7 +57,7 @@ class Net(nn.Module):
         return self.layers(x)
 
 # Load the saved model 
-net = torch.load('fc_30.pth')
+net = torch.load('column.pth')
 
 # Assing the device to create tensors
 device = torch.device("cuda:8" if torch.cuda.is_available() else "cpu") #torch.device("cpu")
