@@ -38,3 +38,4 @@ The data generation folder contains files for parametric data generation.
 ### 4: Design check
 Use check.py to run the check of the network output results.
 
+### 5: Publication: https://www.isec-society.org/ISEC_PRESS/EURO_MED_SEC_04/xml/SUS-14.xml
